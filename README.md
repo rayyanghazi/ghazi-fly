@@ -27,9 +27,9 @@ primary_region = 'sin' #change with region you need i.e iad,lax,sin
 ```bash
 fly launch
 ```
-type y
-type N
-type y
+*type y*  
+*type N*  
+*type y*  
 ---
 
 ## 🛠️ **Troubleshooting**
