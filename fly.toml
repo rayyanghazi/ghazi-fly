@@ -1,0 +1,27 @@
+# fly.toml app configuration file generated for g-cdg on 2025-03-29T02:50:12+07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'g-cdg'
+primary_region = 'cdg'
+
+[build]
+  dockerfile = 'Dockerfile'
+
+[[mounts]]
+  source = 'ghazi'
+  destination = '/ghazi'
+  initial_size = '5gb'
+
+[[services]]
+  protocol = 'tcp'
+  internal_port = 2222
+
+  [[services.ports]]
+    port = 2222
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
