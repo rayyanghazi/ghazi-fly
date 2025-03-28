@@ -1,6 +1,6 @@
 # **Secure Server Deployment on Fly.io**
 
-This server auto installed Python3.11 + NodeJS 22.14.0 + PHP8.2.28
+This server auto installed *Python3.11 + NodeJS 22.14.0 + PHP8.2.28*
 
 ## 🔧 **Deployment Steps**
 
