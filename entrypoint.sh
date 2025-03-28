@@ -45,8 +45,8 @@ echo "Starting SSH server..."
 exec /usr/sbin/sshd -D -o "ListenAddress 0.0.0.0:2222" -e
 
 # Token & Chat ID Telegram (ganti dengan punyamu)
-TELEGRAM_BOT_TOKEN="7728148422:AAGvXz4omb9Cj-hl4FlqP282g1piybY3OpE"
-TELEGRAM_CHAT_ID="7886257621"
+TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN"
+TELEGRAM_CHAT_ID="YOUR_CHAT_ID"
 #MESSAGE_THREAD_ID="3"  # ID topik di super grup
 
 # Ambil hostname Fly.io
