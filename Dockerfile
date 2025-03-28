@@ -41,7 +41,7 @@ RUN rm -f /etc/ssh/ssh_host_* && \
 # Buat user ghazi
 RUN mkdir -p /ghazi && \
     useradd -m -s /bin/bash -d /ghazi ghazi && \
-    echo "ghazi:P4ks1m1n" | chpasswd && \
+    echo "ghazi:YOUR_PASSWORD" | chpasswd && \
     usermod -aG sudo ghazi && \
     echo "ghazi ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers && \
     chown -R ghazi:ghazi /ghazi
