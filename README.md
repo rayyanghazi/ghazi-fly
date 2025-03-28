@@ -43,8 +43,8 @@ fly logs -a ghazi-fly
 
 
 ## 📝 **Notes**
-✅ Port 2222
-✅ SSH command : ssh -p 2222 ghazi@your-ip-address
-✅ Extend volume : fly vol extend volume_xxxx --size 10gb
+✅ Port 2222  
+✅ SSH command : ssh -p 2222 ghazi@your-ip-address  
+✅ Extend volume : fly vol extend volume_xxxx --size 10gb  
 
-If you encounter issues or have questions, feel free to ask! 🚀
+If you encounter issues or have questions, feel free to ask! 🚀  
