@@ -19,7 +19,7 @@ EOF
 fi
 
 # Tambahkan custom prompt untuk ghazi
-echo 'export PS1="\[\e[32m\][g-cdg] \[\e[36m\]\u@\h:\w\$ \[\e[m\]"' >> /ghazi/.bashrc
+echo 'export PS1="\[\e[32m\][ghaziverse] \[\e[36m\]\u@\h:\w\$ \[\e[m\]"' >> /ghazi/.bashrc
 
 chown -R ghazi:ghazi /ghazi
 
